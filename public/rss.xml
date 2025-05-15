@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Manhattan Plumbing News</title>
+    <link>https://manhattanplumbing.com/news</link>
+    <description>Latest news and updates from Manhattan Plumbing</description>
+    <language>en-us</language>
+    <item>
+      <title>Hello Manhattan!</title>
+      <link>https://manhattanplumbing.com/news/hello-manhattan</link>
+      <description>Our plumbing service launches in Manhattan, NY.</description>
+      <pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>5 Plumbing Tips for Manhattan Residents</title>
+      <link>https://manhattanplumbing.com/news/plumbing-tips-manhattan</link>
+      <description>Essential plumbing tips to keep your Manhattan home running smoothly.</description>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Choose Licensed Plumbers in NYC?</title>
+      <link>https://manhattanplumbing.com/news/licensed-plumbers-nyc</link>
+      <description>Discover the benefits of hiring licensed and insured plumbers in Manhattan.</description>
+      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
