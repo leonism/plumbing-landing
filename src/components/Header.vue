@@ -36,7 +36,6 @@ import MobileMenu from "./layout/MobileMenu.vue";
 
 const route = useRoute();
 const showMobile = ref(false);
-
 const nav = [
   { label: "Home", to: "/" },
   { label: "News", to: "/news" },
