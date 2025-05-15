@@ -30,7 +30,6 @@
 <script setup>
 import { ref } from "vue";
 import { useRoute } from "vue-router";
-// Import the new layout components
 import TopInfoBar from "./layout/TopInfoBar.vue";
 import MainNav from "./layout/MainNav.vue";
 import MobileMenu from "./layout/MobileMenu.vue";

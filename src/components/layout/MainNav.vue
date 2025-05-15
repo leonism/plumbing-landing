@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import ThemeToggle from "@/components/ui/ThemeToggle.vue"; // Assuming ThemeToggle is in ui folder
+import ThemeToggle from "@/components/ui/ThemeToggle.vue";
 
 const props = defineProps({
   nav: {
