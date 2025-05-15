@@ -20,11 +20,10 @@ import {
 </script>
 
 <template>
-  <section
-    class="relative flex flex-col items-center mb-10 md:flex-row md:mx-10 md:pt-10">
-    <div class="flex-1 flex flex-col gap-1 z-10">
+  <section class="relative flex flex-col items-center mb-10 md:flex-row mx-10">
+    <div class="flex-1 flex flex-col mt-10">
       <h1
-        class="text-gradient text-4xl/15 clamp-title font-display font-extrabold text-primary-700 dark:text-primary-200 drop-shadow-lg">
+        class="mb-5 text-4xl/15 clamp-title font-display font-extrabold text-primary-700 dark:text-primary-200 drop-shadow-xl">
         Manhattan's #1 Plumbing Experts
       </h1>
       <p

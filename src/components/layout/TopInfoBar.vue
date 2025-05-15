@@ -4,7 +4,7 @@
   <div class="hidden md:block bg-primary-500 text-white">
     <div
       class="max-w-7xl mx-auto px-4 md:px-8 py-1.5 text-sm flex items-center justify-between">
-      <div class="flex items-center gap-6">
+      <div class="text-black/70 flex items-center gap-6">
         <a
           href="tel:(123)456-7890"
           class="flex items-center gap-1 hover:text-white/90 transition-colors">
@@ -19,7 +19,7 @@
           </svg>
           (123) 456-7890
         </a>
-        <span class="hidden lg:inline-flex items-center gap-1">
+        <span class="hidden text-black/70 lg:inline-flex items-center gap-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-4 h-4"
@@ -31,13 +31,12 @@
           24/7 Emergency Service
         </span>
       </div>
-      <div class="flex items-center gap-4">
+      <div class="text-black/70 flex items-center gap-4">
         <a
           href="#"
-          class="hover:text-white/90 transition-colors"
-          >NYC License #123456</a
-        >
-        <div class="h-3.5 w-px bg-white/30"></div>
+          class="hover:text-white/90 transition-colors">
+          NYC License #123456
+        </a>
       </div>
     </div>
   </div>
