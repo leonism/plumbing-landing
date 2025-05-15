@@ -4,7 +4,7 @@ import {
   WrenchScrewdriverIcon,
   FireIcon,
   ShieldCheckIcon,
-} from "@heroicons/vue/24/outline"; // Assuming these are used in the hero section
+} from "@heroicons/vue/24/outline";
 
 // Define props if any data needs to be passed down, e.g., dynamic text
 // const props = defineProps({...});
@@ -21,14 +21,14 @@ import {
 
 <template>
   <section
-    class="relative flex flex-col md:flex-row items-center gap-10 mb-20 pt-8 md:pt-20 px-4 md:px-0">
-    <div class="flex-1 flex flex-col gap-6 z-10">
+    class="relative flex flex-col items-center mb-10 md:flex-row md:mx-10 md:pt-10">
+    <div class="flex-1 flex flex-col gap-1 z-10">
       <h1
-        class="clamp-title font-display font-extrabold text-primary-700 dark:text-primary-200 mb-2 drop-shadow-lg">
+        class="text-gradient text-4xl/15 clamp-title font-display font-extrabold text-primary-700 dark:text-primary-200 drop-shadow-lg">
         Manhattan's #1 Plumbing Experts
       </h1>
       <p
-        class="clamp-lead text-neutral-700 dark:text-neutral-200 mb-4 max-w-xl">
+        class="clamp-lead text-2xl/10 text-neutral-700 dark:text-neutral-200 mb-4 max-w-xl">
         Fast, reliable, and friendly plumbing for homes and businesses in
         Manhattan, NY. 24/7 emergency service. Satisfaction guaranteed. Book
         online or call us now!
@@ -59,15 +59,15 @@ import {
     </div>
     <div class="flex-1 flex justify-center relative z-10">
       <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80"
+        src="/src/assets/images/hero.jpg"
         alt="Plumber at work"
         class="rounded-3xl shadow-2xl w-full max-w-md object-cover border-4 border-white dark:border-neutral-900 bg-white/60 dark:bg-neutral-900/60 backdrop-blur-lg" />
-      <div class="absolute -top-8 -right-8 hidden md:block">
+      <!-- <div class="absolute -top-8 -right-8 hidden md:block">
         <img
           src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=200&q=80"
           alt="Plumbing tool"
           class="rounded-full w-24 h-24 border-4 border-primary-200 shadow-lg" />
-      </div>
+      </div> -->
     </div>
     <div
       class="absolute inset-0 bg-gradient-to-br from-primary-50/80 via-white/60 to-primary-100/40 dark:from-neutral-900/80 dark:via-neutral-800/60 dark:to-neutral-900/40 pointer-events-none -z-10 rounded-3xl"></div>

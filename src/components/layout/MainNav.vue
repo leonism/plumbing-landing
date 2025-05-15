@@ -32,9 +32,9 @@ const emit = defineEmits(["toggle-mobile"]);
         <img
           src="https://cdn-icons-png.flaticon.com/512/2933/2933188.png"
           alt="Logo"
-          class="h-9 w-9 rounded-full bg-primary-100 shadow transition group-hover:scale-105" />
+          class="h-9 w-9 fa-border-all bg-white rounded-full bg-primary-100 shadow transition group-hover:scale-105" />
         <span
-          class="font-display text-xl md:text-2xl font-bold tracking-tight text-primary-700 dark:text-primary-200 select-none">
+          class="font-display text-xl md:text-2xl text-black font-bold tracking-tight dark:text-primary-200">
           Manhattan Plumbing
         </span>
       </router-link>
