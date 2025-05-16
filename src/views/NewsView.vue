@@ -10,7 +10,6 @@
 </template>
 
 <script setup>
-import MainLayout from "@/layouts/MainLayout.vue";
 import SectionContainer from "@/components/layout/SectionContainer.vue";
 import NewsList from "@/components/news/NewsList.vue"; // Import the new component
 import { useNews } from "@/composables/useNews";

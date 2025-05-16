@@ -18,7 +18,6 @@
 </template>
 
 <script setup>
-import MainLayout from "@/layouts/MainLayout.vue";
 import Postcard from "@/components/Postcard.vue";
 import {
   WrenchScrewdriverIcon,

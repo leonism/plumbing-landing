@@ -39,6 +39,4 @@
   </section>
 </template>
 
-<script setup>
-import MainLayout from "@/layouts/MainLayout.vue";
-</script>
+<script setup></script>
