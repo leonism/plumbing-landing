@@ -10,8 +10,8 @@
 </template>
 
 <script setup>
-import SectionContainer from "@/components/layout/SectionContainer.vue";
-import NewsList from "@/components/news/NewsList.vue"; // Import the new component
+import SectionContainer from "@/components/ui/SectionContainer.vue";
+import NewsList from "@/components/news/NewsList.vue";
 import { useNews } from "@/composables/useNews";
 import { onMounted, watch } from "vue";
 

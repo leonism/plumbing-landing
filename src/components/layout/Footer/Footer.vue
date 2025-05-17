@@ -1,7 +1,7 @@
 <script setup>
 // Import the new components
 import SocialLinks from "@/components/ui/SocialLinks.vue";
-import CopyrightInfo from "@/components/layout/CopyrightInfo.vue";
+import CopyrightInfo from "../CopyrightInfo.vue";
 </script>
 
 <template>

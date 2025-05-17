@@ -1,5 +1,5 @@
 <script setup>
-import Postcard from "@/components/Postcard.vue"; // Assuming Postcard is in components root
+import Postcard from "@/components/common/Postcard.vue";
 
 const props = defineProps({
   services: {

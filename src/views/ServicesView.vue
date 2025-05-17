@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import Postcard from "@/components/Postcard.vue";
+import Postcard from "@/components/common/Postcard.vue";
 import {
   WrenchScrewdriverIcon,
   FireIcon,

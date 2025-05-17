@@ -1,6 +1,6 @@
 <script setup>
 import NewsCard from "@/components/news/NewsCard.vue"; // Assuming NewsCard is in components/news
-import SkeletonLoader from "@/components/SkeletonLoader.vue"; // Assuming SkeletonLoader is in components root
+import SkeletonLoader from "@/components/common/SkeletonLoader.vue";
 import { RouterLink } from "vue-router";
 import { WrenchScrewdriverIcon } from "@heroicons/vue/24/outline"; // Assuming this icon is used for news
 

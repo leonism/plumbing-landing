@@ -5,7 +5,7 @@ import AboutView from "../views/AboutView.vue";
 import ServicesView from "../views/ServicesView.vue";
 import ContactView from "../views/ContactView.vue";
 import LocationView from "../views/LocationView.vue";
-import NewsPost from "../components/NewsPost.vue";
+import NewsPost from "../components/news/NewsPost.vue";
 
 const routes = [
   { path: "/", name: "Home", component: HomeView },
@@ -21,4 +21,3 @@ export default createRouter({
   history: createWebHistory(),
   routes,
 });
-

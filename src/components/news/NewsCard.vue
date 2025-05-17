@@ -6,30 +6,37 @@
       <img
         :src="image"
         :alt="title"
-        class="w-full h-48 object-cover" />
+        class="w-full h-48 object-cover"
+        loading="lazy" />
       <div class="absolute top-3 left-3 flex items-center gap-2">
         <PostTag
           v-if="tag"
-          :tag="tag" />
+          :tag="tag"
+          :aria-label="`Post category: ${tag}`" />
       </div>
     </header>
     <div class="p-5 flex-1 flex flex-col">
       <h3
-        class="font-display text-xl font-bold mb-2 text-primary-700 dark:text-primary-200">
+        class="font-display text-xl font-bold mb-2 text-primary-700 dark:text-primary-200 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
         {{ title }}
       </h3>
-      <p class="text-neutral-600 dark:text-neutral-300 flex-1">
+      <p class="text-neutral-600 dark:text-neutral-300 flex-1 line-clamp-3">
         {{ description }}
       </p>
       <footer
         v-if="showMeta"
         class="mt-4 flex items-center justify-between text-sm">
-        <span class="text-neutral-500">{{ formatDate(date) }}</span>
+        <time
+          :datetime="new Date(date).toISOString()"
+          class="text-neutral-500">
+          {{ formatDate(date) }}
+        </time>
         <span
           v-if="author"
-          class="text-primary-600"
-          >{{ author }}</span
-        >
+          class="text-primary-600 dark:text-primary-400">
+          <span class="sr-only">Written by</span>
+          {{ author }}
+        </span>
       </footer>
     </div>
   </article>
