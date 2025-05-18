@@ -5,7 +5,7 @@
     <div
       class="flex-1 flex flex-col items-start md:items-start text-center md:text-left">
       <h1
-        class="text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-cyan-400 to-blue-600 dark:from-cyan-300 dark:to-blue-500 bg-clip-text text-transparent drop-shadow-lg mb-4 leading-tight">
+        class="text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow-lg mb-4 leading-tight">
         Manhattan’s Premier Plumbing Pros
       </h1>
       <h2
@@ -21,8 +21,8 @@
       <div class="flex flex-wrap gap-4 mb-4">
         <router-link
           to="/contact"
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-full text-white bg-gradient-to-r from-blue-600 to-cyan-500 hover:from-cyan-500 hover:to-blue-600 shadow-xl hover:scale-105 transform transition-all duration-300 text-lg font-semibold">
-          <i class="fa-solid fa-faucet-drip"></i> Book Now
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-red-600 to-red-500 hover:from-cyan-500 hover:to-blue-600 shadow-xl hover:scale-105 transform transition-all duration-300 text-lg font-semibold">
+          <i class="fa-solid fa-faucet-drip text-white"></i> Book Now
         </router-link>
         <router-link
           to="/services"
@@ -50,7 +50,7 @@
         <img
           src="/src/assets/images/hero.jpg"
           alt="Experienced plumber on the job"
-          class="rounded-3xl shadow-2xl object-cover w-full max-w-sm border-4 border-white dark:border-neutral-900 bg-white/30 dark:bg-neutral-900/30 backdrop-blur-sm" />
+          class="rounded-3xl shadow-2xl object-cover w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl border-4 border-white dark:border-neutral-900 bg-white/30 dark:bg-neutral-900/30 backdrop-blur-sm transition-all duration-300" />
         <div
           class="absolute -bottom-4 -right-4 bg-gradient-to-r from-yellow-300 to-yellow-500 text-black font-bold px-4 py-2 rounded-full text-sm shadow-lg z-20">
           Promo 20% Off – First Time Customers
