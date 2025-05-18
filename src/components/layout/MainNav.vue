@@ -30,7 +30,7 @@ const emit = defineEmits(["toggle-mobile"]);
         to="/"
         class="flex items-center gap-3 group">
         <img
-          src="https://cdn-icons-png.flaticon.com/512/2933/2933188.png"
+          src="/src/assets/images/logo.png"
           alt="Logo"
           class="h-9 w-9 fa-border-all bg-white rounded-full bg-primary-100 shadow transition group-hover:scale-105" />
         <span
