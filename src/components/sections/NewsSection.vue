@@ -1,8 +1,8 @@
 <script setup>
-import NewsCard from "@/components/news/NewsCard.vue"; // Assuming NewsCard is in components/news
+import NewsCard from "@/components/news/NewsCard.vue";
 import SkeletonLoader from "@/components/common/SkeletonLoader.vue";
 import { RouterLink } from "vue-router";
-import { WrenchScrewdriverIcon } from "@heroicons/vue/24/outline"; // Assuming this icon is used for news
+import { WrenchScrewdriverIcon } from "@heroicons/vue/24/outline";
 
 const props = defineProps({
   newsPosts: {
@@ -15,13 +15,13 @@ const props = defineProps({
   },
 });
 
-const newsIcon = WrenchScrewdriverIcon; // Or choose a more appropriate icon for news
+const newsIcon = WrenchScrewdriverIcon;
 </script>
 
 <template>
   <section class="mb-20 px-4 md:px-0">
     <h2
-      class="clamp-title font-display font-bold text-primary-700 dark:text-primary-200 mb-10 text-center drop-shadow">
+      class="clamp-title font-display font-extrabold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow-lg mb-4 leading-tight mb-10 text-center drop-shadow">
       Latest News
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

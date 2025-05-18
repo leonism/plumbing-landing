@@ -31,10 +31,10 @@ const emit = defineEmits(["toggle-mobile"]);
         class="flex items-center gap-3 group">
         <img
           src="/src/assets/images/logo.png"
-          alt="Logo"
-          class="h-9 w-9 fa-border-all bg-white rounded-full bg-primary-100 shadow transition group-hover:scale-105" />
+          alt="Manhattan Plumbing Logo"
+          class="h-9 w-9 rounded-full bg-white shadow transition-transform group-hover:scale-105" />
         <span
-          class="font-display text-xl md:text-2xl text-black font-bold tracking-tight dark:text-primary-200">
+          class="font-display text-xl md:text-2xl text-black font-bold tracking-tight font-extrabold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow-lg">
           Manhattan Plumbing
         </span>
       </router-link>
@@ -63,8 +63,7 @@ const emit = defineEmits(["toggle-mobile"]);
                 :class="{
                   'scale-x-100': isCurrentRoute(item.to),
                   'scale-x-0': !isCurrentRoute(item.to),
-                }">
-              </span>
+                }"></span>
             </router-link>
           </li>
         </ul>
