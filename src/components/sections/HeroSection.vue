@@ -21,7 +21,7 @@
       <div class="flex flex-wrap gap-4 mb-4">
         <router-link
           to="/contact"
-          class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-red-600 to-red-500 hover:from-cyan-500 hover:to-blue-600 shadow-xl hover:scale-105 transform transition-all duration-300 text-lg font-semibold">
+          class="inline-flex items-center border-3 border-cyan-900 dark:border-neutral-900 gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-red-600 to-red-500 hover:from-cyan-500 hover:to-blue-600 shadow-xl hover:scale-105 transform transition-all duration-300 text-lg font-semibold">
           <i class="fa-solid fa-faucet-drip text-white"></i> Book Now
         </router-link>
         <router-link
