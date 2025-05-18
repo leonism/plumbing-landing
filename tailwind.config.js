@@ -29,7 +29,6 @@ export default {
       },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
   safelist: [
     "bg-primary-500",
     "bg-red-500",
@@ -41,4 +40,5 @@ export default {
       pattern: /^(px|py|p|m|mx|my|mt|mb|ml|mr)-[0-9]+$/,
     },
   ],
+  plugins: [require("@tailwindcss/typography")],
 };

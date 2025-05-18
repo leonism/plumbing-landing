@@ -1,7 +1,7 @@
 <template>
   <section
-    class="relative flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 gap-10 overflow-hidden">
-    <!-- Text Content -->
+    class="relative flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-16 gap-5 overflow-hidden">
+    <!-- Headings -->
     <div
       class="flex-1 flex flex-col items-start md:items-start text-center md:text-left">
       <h1
@@ -57,9 +57,5 @@
         </div>
       </div>
     </div>
-
-    <!-- Subtle Background Gradient -->
-    <div
-      class="absolute inset-0 -z-10 bg-gradient-to-br from-white via-blue-50 to-cyan-100 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900"></div>
   </section>
 </template>
