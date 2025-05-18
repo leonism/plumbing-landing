@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="hidden md:block bg-primary-500 text-white">
+  <div class="hidden md:block bg-neutral text-black">
     <div
       class="max-w-7xl mx-auto px-4 md:px-8 py-1.5 text-sm flex items-center justify-between">
       <div class="text-black/70 flex items-center gap-6">
