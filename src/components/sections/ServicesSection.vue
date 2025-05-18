@@ -11,14 +11,11 @@ const props = defineProps({
 
 <template>
   <section class="mb-20 px-4 md:px-0">
-    <!-- Section Heading with Gradient Text -->
     <h2
-      class="text-center text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow-lg mb-4 leading-tight bg-clip-text text-transparent drop-shadow mb-10">
-      Our Premium Plumbing Services
+      class="text-4xl md:text-5xl font-extrabold text-center mb-10 bg-gradient-to-r from-red-600 via-orange-500 to-red-700 bg-clip-text text-transparent drop-shadow-lg">
+      Our Plumbing Services
     </h2>
-
-    <!-- Services Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
       <Postcard
         v-for="service in services"
         :key="service.title"
@@ -27,7 +24,7 @@ const props = defineProps({
         :image="service.image"
         :tag="service.tag"
         :icon="service.icon"
-        class="transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl" />
+        class="hover:scale-[1.03] transition-transform duration-200" />
     </div>
   </section>
 </template>
