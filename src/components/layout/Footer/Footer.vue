@@ -1,6 +1,6 @@
 <script setup>
 import SocialLinks from "@/components/ui/SocialLinks.vue";
-import CopyrightInfo from "../CopyrightInfo.vue";
+import CopyrightInfo from "./CopyrightInfo.vue";
 </script>
 
 <template>

@@ -1,9 +1,9 @@
 <script setup>
 import { ref } from "vue";
 import { useRoute } from "vue-router";
-import TopInfoBar from "../TopInfoBar.vue";
-import MainNav from "../MainNav.vue";
-import MobileMenu from "../MobileMenu.vue";
+import TopInfoBar from "./TopInfoBar.vue";
+import MainNav from "./MainNav.vue";
+import MobileMenu from "./MobileMenu.vue";
 
 const route = useRoute();
 const showMobile = ref(false);

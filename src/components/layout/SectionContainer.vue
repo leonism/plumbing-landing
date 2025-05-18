@@ -3,7 +3,7 @@
     <h2
       v-if="$slots.title"
       class="clamp-title font-display font-bold text-primary-700 dark:text-primary-200 mb-10 text-center drop-shadow">
-      <slot name="title"></slot>
+      <slot name="title"> </slot>
     </h2>
     <slot></slot>
   </section>
