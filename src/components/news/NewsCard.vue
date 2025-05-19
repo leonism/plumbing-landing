@@ -1,6 +1,6 @@
 <template>
   <article
-    class="group bg-white/80 dark:bg-neutral-900/80 rounded-2xl shadow-xl border border-neutral-100 dark:border-neutral-800 overflow-hidden flex flex-col hover:scale-[1.03] transition-transform duration-200 backdrop-blur-lg"
+    class="group bg-white/80 dark:bg-neutral-900/80 rounded-2xl shadow-xl border border-neutral-100 dark:border-neutral-800 overflow-hidden flex flex-col hover:scale-[1.03] transition-transform duration-200"
     v-bind="$attrs">
     <header class="relative">
       <img

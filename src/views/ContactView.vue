@@ -1,6 +1,6 @@
 <template>
   <section
-    class="max-w-2xl mx-auto mt-16 mb-24 px-4 py-10 bg-white/80 dark:bg-neutral-900/80 rounded-2xl shadow-xl border border-neutral-100 dark:border-neutral-800 backdrop-blur-lg">
+    class="max-w-2xl mx-auto mt-16 mb-24 px-4 py-10 bg-white/80 dark:bg-neutral-900/80 rounded-2xl shadow-xl border border-neutral-100 dark:border-neutral-800">
     <h1
       class="clamp-title font-display font-bold text-primary-700 dark:text-primary-200 mb-6 text-center">
       Contact Us

@@ -17,7 +17,7 @@ const emit = defineEmits(["close"]);
 
 <template>
   <div
-    class="md:hidden bg-white/95 dark:bg-neutral-900/95 border-t border-neutral-200 dark:border-neutral-800">
+    class="md:hidden bg-white/90 dark:bg-neutral-900/95 border-t border-neutral-200 dark:border-neutral-800">
     <nav class="max-w-7xl mx-auto px-4 py-3">
       <ul class="flex flex-col gap-2 text-lg font-medium">
         <li

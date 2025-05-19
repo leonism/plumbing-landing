@@ -5,7 +5,7 @@ import CopyrightInfo from "./CopyrightInfo.vue";
 
 <template>
   <footer
-    class="w-full bg-white/90 backdrop-blur-sm dark:bg-neutral-900/90 border-t border-neutral-200/80 dark:border-neutral-800/70 py-12 mt-24 transition-colors duration-300">
+    class="w-full bg-white/90 dark:bg-neutral-900/90 border-t border-neutral-200/80 dark:border-neutral-800/70 py-12 mt-24 transition-colors duration-300">
     <div
       class="max-w-7xl mx-auto px-6 sm:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
       <!-- Logo Group with subtle hover animation -->

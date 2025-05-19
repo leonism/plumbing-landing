@@ -19,7 +19,7 @@ const showMobile = ref(false);
 
 <template>
   <nav
-    class="bg-white/90 dark:bg-neutral-900/90 border-b border-neutral-200 dark:border-neutral-800">
+    class="dark:bg-neutral-900/90 border-b border-neutral-200 dark:border-neutral-800">
     <div
       class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-3">
       <!-- Logo -->
