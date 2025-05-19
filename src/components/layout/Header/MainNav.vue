@@ -18,26 +18,27 @@ const showMobile = ref(false);
 </script>
 
 <template>
-  <nav
-    class="dark:bg-neutral-900/90 border-b border-neutral-200 dark:border-neutral-800">
+  <nav class="border-b border-neutral-200 dark:border-neutral-800">
     <div
       class="max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 py-3">
       <!-- Logo -->
       <router-link
         to="/"
-        class="flex items-center gap-3 group">
+        class="flex items-center group">
         <img
           src="/src/assets/images/orange-logo.png"
           alt="Manhattan Plumbing Logo"
+          width="32"
+          height="32"
           class="h-9 w-9 px-1 py-1 rounded-full bg-transparent border-2 border-white transition-transform group-hover:scale-105" />
         <span
-          class="font-display text-xl md:text-2xl font-bold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow">
+          class="font-display ml-1 sm:text-xl md:text-2xl font-bold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow-lg">
           Manhattan Plumbing
         </span>
       </router-link>
 
       <!-- Desktop Navigation -->
-      <ul class="hidden md:flex items-center gap-6 text-base font-medium">
+      <ul class="hidden md:flex items-center gap-3">
         <li
           v-for="item in nav"
           :key="item.to">
@@ -52,7 +53,7 @@ const showMobile = ref(false);
             }">
             {{ item.label }}
             <span
-              class="absolute inset-x-2 -bottom-px h-0.5 bg-primary-500 transform origin-left transition-transform"
+              class="absolute inset-x-2 -bottom-px h-0.5 transform origin-left transition-transform"
               :class="{
                 'scale-x-100': isCurrentRoute(item.to),
                 'scale-x-0': !isCurrentRoute(item.to),
@@ -62,7 +63,7 @@ const showMobile = ref(false);
       </ul>
 
       <!-- Theme Toggle and Mobile Menu Button -->
-      <div class="flex items-center gap-4 md:gap-6">
+      <div class="flex items-center">
         <ThemeToggle />
 
         <!-- Mobile Menu Button -->

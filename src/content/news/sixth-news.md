@@ -1,9 +1,18 @@
 ---
 title: "Emergency Plumbing: What To Do First"
-description: "Steps to take in a plumbing emergency in Manhattan."
-image: "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=800&q=80"
-tag: "Emergency"
-date: "2025-05-14"
+slug: "emergency-plumbing-what-to-do-first"
+description: "Essential plumbing tips to keep your Manhattan home running smoothly."
+date: "2025-05-10"
+image: "./src/assets/images/story/hello-manhattan-02.jpg"
+ogImage: "./src/assets/images/story/hello-manhattan-02.jpg"
+author: "Jane Plumber"
+tags: ["tips", "manhattan", "plumbing"]
+jsonld:
+  "@context": "https://schema.org"
+  "@type": "NewsArticle"
+  "headline": "Emergency Plumbing: What To Do First"
+  "datePublished": "2025-05-14"
+  "image": "./src/assets/images/story/hello-manhattan-02.jpg"
 ---
 
 If you have a burst pipe or major leak:

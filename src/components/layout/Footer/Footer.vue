@@ -12,11 +12,11 @@ import CopyrightInfo from "./CopyrightInfo.vue";
       <div
         class="group flex items-center gap-3 transition-transform duration-200 hover:scale-[1.02]">
         <img
-          src="/src/assets/images/logo.png"
+          src="/src/assets/images/orange-logo.png"
           alt="Manhattan Plumbing Company Logo"
           width="32"
           height="32"
-          class="h-8 w-8 rounded-full bg-primary-100/80 dark:bg-primary-900/20 border border-primary-200/50 dark:border-primary-800/30 shadow-sm transition-all duration-300 group-hover:rotate-6 group-hover:shadow-md"
+          class="h-9 w-9 px-1 py-1 rounded-full bg-transparent border-2 border-white transition-transform group-hover:scale-105"
           loading="lazy" />
         <span
           class="font-display text-lg font-bold text-primary-700 dark:text-primary-300 tracking-tight"

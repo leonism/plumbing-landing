@@ -3,8 +3,8 @@ title: "5 Plumbing Tips for Manhattan Residents"
 slug: "plumbing-tips-manhattan"
 description: "Essential plumbing tips to keep your Manhattan home running smoothly."
 date: "2025-05-10"
-image: "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=800&q=80"
-ogImage: "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1200&q=80"
+image: "./src/assets/images/story/hello-manhattan-02.jpg"
+ogImage: "./src/assets/images/story/hello-manhattan-02.jpg"
 author: "Jane Plumber"
 tags: ["tips", "manhattan", "plumbing"]
 jsonld:
@@ -12,7 +12,7 @@ jsonld:
   "@type": "NewsArticle"
   "headline": "5 Plumbing Tips for Manhattan Residents"
   "datePublished": "2025-05-10"
-  "image": "https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?auto=format&fit=crop&w=1200&q=80"
+  "image": "./src/assets/images/story/hello-manhattan-02.jpg"
 ---
 
 # 5 Plumbing Tips for Manhattan Residents

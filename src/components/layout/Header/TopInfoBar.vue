@@ -2,8 +2,8 @@
 
 <template>
   <div
-    class="hidden md:flex text-black max-w-7xl mx-auto px-4 md:px-8 py-1.5 text-sm">
-    <div class="flex ml-0 gap-6 text-black/70">
+    class="hidden text-black text-xs text-black/70 max-w-7xl mx-auto px-4 text-sm md:flex md:px-8 py-1.5">
+    <div class="flex ml-0 gap-3">
       <a
         href="tel:(123)456-7890"
         class="flex text-left gap-1">
@@ -30,7 +30,7 @@
         24/7 Emergency Service
       </span>
     </div>
-    <div class="flex mx-auto mr-0 justify-end text-black/70">
+    <div class="flex mx-auto mr-0 justify-end">
       <a
         href="#"
         class="hover:text-white/90">
