@@ -7,7 +7,7 @@
       <div class="text-black/70 flex items-center gap-6">
         <a
           href="tel:(123)456-7890"
-          class="flex items-center gap-1 hover:text-white/90 transition-colors">
+          class="flex items-center gap-1 hover:text-white/90 transition">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="w-4 h-4"

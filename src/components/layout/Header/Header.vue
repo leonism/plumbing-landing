@@ -30,7 +30,7 @@ function closeMobileMenu() {
 </script>
 
 <template>
-  <header class="sticky top-0 z-40 w-full backdrop-blur-xl transition-colors">
+  <header class="sticky top-0 z-40 w-full transition">
     <TopInfoBar />
     <MainNav
       :nav="nav"

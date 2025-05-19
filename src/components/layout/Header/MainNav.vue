@@ -29,7 +29,7 @@ const showMobile = ref(false);
         <img
           src="/src/assets/images/orange-logo.png"
           alt="Manhattan Plumbing Logo"
-          class="h-9 w-9 rounded-full bg-transparent border-1 border-white transition-transform group-hover:scale-105" />
+          class="h-9 w-9 px-1 py-1 rounded-full bg-transparent border-2 border-white transition-transform group-hover:scale-105" />
         <span
           class="font-display text-xl md:text-2xl font-bold bg-gradient-to-r from-red-600 via-orange-500 to-red-700 dark:from-red-500 dark:via-orange-400 dark:to-red-600 bg-clip-text text-transparent drop-shadow">
           Manhattan Plumbing
